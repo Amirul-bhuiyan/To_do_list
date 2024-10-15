@@ -103,7 +103,10 @@ body{
     margin-left: 10px; 
 
 }
-
+span{
+    font-size: 18px;
+    font-weight: 600;
+}
 .AddedTaskCard .addedtaskFiled .buttonCard{
     display: flex;
     justify-content: center;
@@ -125,7 +128,7 @@ body{
     border: transparent;
 }
 .AddedTaskCard .addedtaskFiled .buttonCard button:active{
-    transform: scale();
+    transform: scale(1.1);
 }
 .AddedTaskCard .addedtaskFiled .buttonCard .editButton{
     background-color: #6256CA;
